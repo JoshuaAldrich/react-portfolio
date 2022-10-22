@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav>
-      <a href="/">Joshua Aldrich</a>
-      <a href="/about">About Me</a>
-      <a href="/projects">Projects</a>
-      <a href="/contact">Contact</a>
-      <a href="/resume">Resume</a>
+      <Link to="/">Joshua Aldrich</Link>
+      <Link to="/about">About Me</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/contact">Contact</Link>
+      <Link to="/resume">Resume</Link>
     </nav>
   );
 };
