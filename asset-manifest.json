@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7ec6ba9e.css",
+    "main.js": "/react-portfolio/static/js/main.7c9121d4.js",
+    "static/media/theGameRoom.png": "/react-portfolio/static/media/theGameRoom.73d58bdc43826b82be3a.png",
+    "static/media/ProfilePicture.jpg": "/react-portfolio/static/media/ProfilePicture.570b5c55b9505936834c.jpg",
+    "static/media/UpdatedHome.png": "/react-portfolio/static/media/UpdatedHome.aa1e6bd3c0e1c6f5ff4c.png",
+    "static/media/horiseon.png": "/react-portfolio/static/media/horiseon.232a30e96bd6de86b5d6.png",
+    "static/media/runbuddy.PNG": "/react-portfolio/static/media/runbuddy.6562946723d34ae310b0.PNG",
+    "static/media/ddten.png": "/react-portfolio/static/media/ddten.32181845d4a8322ff306.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.7ec6ba9e.css.map": "/react-portfolio/static/css/main.7ec6ba9e.css.map",
+    "main.7c9121d4.js.map": "/react-portfolio/static/js/main.7c9121d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ec6ba9e.css",
+    "static/js/main.7c9121d4.js"
+  ]
+}
