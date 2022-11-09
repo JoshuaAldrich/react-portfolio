@@ -1,12 +1,22 @@
-body {
-  background-color: #006994;
-}
-
 * {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 .pageContainer {
-  padding: 100px 20px;
+  padding: 20px 20px;
+  background-color: #006994;
+}
+
+article {
+  background-color: #001a20;
+}
+
+article h3 {
+  color: #99eaff;
+}
+
+article a {
+  color: aliceblue;
 }

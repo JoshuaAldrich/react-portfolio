@@ -1,6 +1,5 @@
 import Nav from "./Nav";
 import About from "./About";
-import Home from "./Home";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Contact from "./Contact";
@@ -20,11 +19,11 @@ const App = () => {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
-      <article id="contact" class="contact-me">
-        <div class="container">
-          <h2>Contact Me</h2>
+      <article>
+        <div className="mx-auto text-center">
+          <h3 className="fs-3">Contact Me</h3>
 
-          <div class="contactme">
+          <div className="fs-6 text-decoration-none">
             <p>
               <a href="tel:407.670.4797">407-670-4797</a>
             </p>

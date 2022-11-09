@@ -1,10 +1,10 @@
 import classes from "../styles/projects.module.css";
-import profilePic from "../images/ProfilePicture.jpg";
 import reactImg from "../images/React.jpg";
 import horiseonImg from "../images/horiseon.png";
 import runbuddyImg from "../images/runbuddy.PNG";
-import brainyIMG from "../images/UpdatedHome.png";
+import brainyImg from "../images/UpdatedHome.png";
 import gameroomImg from "../images/theGameRoom.png";
+import ddtenImg from "../images/ddten.png";
 
 function Projects() {
   const projects = [
@@ -29,7 +29,7 @@ function Projects() {
     {
       name: "Brainy Recipes",
       description: "Find Recipes based on ingredients",
-      image: brainyIMG,
+      image: brainyImg,
       link: "https://github.com/JoshuaAldrich/brainy-badgers-JA",
     },
     {
@@ -38,22 +38,31 @@ function Projects() {
       image: gameroomImg,
       link: "https://github.com/JoshuaAldrich/The-Game-Room",
     },
+    {
+      name: "Coming Soon",
+      description: "Interactive Webpage for current employer",
+      image: ddtenImg,
+      link: "https://www.constructionjournal.com/companies/details/pages/DDTEN-LLC-1163821.html",
+    },
   ];
 
   return (
-    <div className={classes.projects}>
-      {projects.map((project) => {
-        return (
-          <div className={classes.project}>
-            <h3>{project.name}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank">
-              <img src={project.image} />
-            </a>
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <h2 className="text-center p-3">Projects</h2>
+      <div className={classes.projects}>
+        {projects.map((project) => {
+          return (
+            <div className={classes.project}>
+              <h3>{project.name}</h3>
+              <p>{project.description}</p>
+              <a href={project.link} target="_blank">
+                <img src={project.image} />
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }
 
