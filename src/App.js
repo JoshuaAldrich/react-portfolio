@@ -1,8 +1,8 @@
-import Nav from "./Nav";
-import About from "./About";
-import Projects from "./Projects";
-import Resume from "./Resume";
-import Contact from "./Contact";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
