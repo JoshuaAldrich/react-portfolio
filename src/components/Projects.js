@@ -4,7 +4,7 @@ import horiseonImg from "../images/horiseon.png";
 import runbuddyImg from "../images/runbuddy.PNG";
 import brainyImg from "../images/UpdatedHome.png";
 import gameroomImg from "../images/theGameRoom.png";
-import ddtenImg from "../images/ddten.png";
+import project3 from "../images/tranquil-island-69050.herokuapp.com_.png";
 
 function Projects() {
   const projects = [
@@ -39,10 +39,10 @@ function Projects() {
       link: "https://github.com/JoshuaAldrich/The-Game-Room",
     },
     {
-      name: "Coming Soon",
-      description: "Interactive Webpage for current employer",
-      image: ddtenImg,
-      link: "https://www.constructionjournal.com/companies/details/pages/DDTEN-LLC-1163821.html",
+      name: "The-Game-Room-2.0",
+      description: "Online webpage with games",
+      image: project3,
+      link: "https://tranquil-island-69050.herokuapp.com/",
     },
   ];
 
